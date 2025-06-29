@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dev Journey</title>
+        <style>
+            .header1{
+                font-family: Arial;
+                text-align: center;
+                font-size: 100px;
+                margin-bottom: 0;
+                margin-top: 0;
+            }
+
+
+            .left-img{
+                width: 300px;
+                object-fit: contain;
+                vertical-align: top;
+                margin-top: 30px;
+                margin-left: 20px;
+                margin-right: 30px;
+            }
+            .quote-mark{
+                font-family: cursive;
+                font-weight: bold;
+            }
+
+            .journey-text{
+                font-family: 'Courier New';
+                display: inline-block;
+                width: 500px;
+                vertical-align: top;
+                padding-top: 200px;
+                padding-left: 140px;
+                text-align: center;
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+            .right-img{
+                margin-right: 0;
+                width: 300px;
+                margin-top: 30px;
+                margin-left: 200px;
+            }
+            .ltext{
+                display: block;
+                text-align: center;
+            }
+
+            .text-area{
+                background-color: rgb(231, 222, 222);
+                font-family: Arial;
+                color: rgb(38, 38, 38);
+                outline: none;
+                border: none;
+                font-size: 14px;
+                box-shadow: 5px 5px 10px rgba(0,0,0,1);
+                padding: 10px;
+                border-radius: 10px;
+                margin-top: 20px;
+                margin-left: 638px;
+                transition: opacity .15s;
+                vertical-align: middle;
+                line-height: 25px;
+            }
+            .text-area:hover{
+                opacity: 0.9;
+            }
+            .text-area:active{
+                opacity: 0.82;
+            }
+
+            .submit-button{
+                background-color: rgb(143, 139, 139);
+                color: white;
+                font-family: Arial;
+                font-size: 14px;
+                font-weight: bold;
+                margin-left: 18px;
+                padding: 10px 20px;
+                border-radius: 20px;
+                vertical-align: bottom;
+                border: none;
+                cursor: pointer;
+                box-shadow: 5px 5px 20px rgba(0,0,0, .5);
+            }
+
+            .submit-button:hover{
+                background-color: rgb(117, 114, 114);
+            }
+
+            .submit-button:active{
+                background-color: rgb(99, 99, 99);
+                margin-top: 3px;
+                margin-left: 20px;
+                box-shadow: none;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 class="header1">My Tech Journey</h1>
+        <img class="left-img" src="images/MyPic.jpg">
+        <p class="journey-text"><span class="quote-mark">&#34;</span>My name is Lotanna Aliozor. 
+            My tech journey started like most with 
+            python. Then I crossed over to C&#35;
+            as a gamedeveloper using Unity and 
+            Unreal engine. Now currently enrolled in 
+            a Web Development course. Learning HTML 
+            and CSS.<span class="quote-mark">&#34;</span>
+        </p>
+        <img class="right-img" src="images/MyPic.jpg">
+        <label class="ltext" for="tarea">Tell us About your 
+            tech journey&#x3a;
+        </label>
+        <textarea class="text-area" cols="30" rows="5" 
+        id="tarea"
+        placeholder="Start with an introduction"></textarea>
+        <button class="submit-button">Submit</button>
+    </body>
+</html>
